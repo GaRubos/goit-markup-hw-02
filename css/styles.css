@@ -1,0 +1,142 @@
+:root {
+  --primary-text-color--: #212121;
+  --secondary-text-color--: #757575;
+  --accent-color--: #2196f3;
+}
+
+body {
+  font-family: 'DotGothic16', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* шапка сайта */
+/* лого сайта */
+.site-nav-logo {
+  color: var(--accent-color--);
+  text-decoration: none;
+}
+.site-nav-logo-studio {
+  color: var(--primary-text-color--);
+}
+
+/* навигация сайта */
+.site-nav-list .link,
+.contact-list .link {
+  text-decoration: none;
+  color: var(--primary-text-color--);
+}
+.site-nav-list .link:hover,
+.contact-list .link:hover,
+.site-nav-list .link:focus,
+.contact-list .link:focus {
+  color: var(--accent-color--);
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* Секция Hero */
+.hero {
+  background-color: var(--primary-text-color--);
+}
+
+.hero .section-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Заголовки секций */
+
+.section-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color--);
+}
+
+/* Преимущества */
+
+.benefits-list .title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color--);
+}
+
+.benefits-list .descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color--);
+}
+
+/* О нас */
+
+.team .title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color--);
+}
+
+.team .descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color--);
+}
+
+/* Подвал сайта */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: var(--accent-color--);
+  text-decoration: none;
+}
+.footer-logo-studio {
+  color: #ffffff;
+}
+.footer .link-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer .link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
