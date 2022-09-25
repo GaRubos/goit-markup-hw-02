@@ -53,6 +53,17 @@ body {
   color: #ffffff;
 }
 
+.button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color--);
+}
+
 /* Заголовки секций */
 
 .section-title {
@@ -87,6 +98,8 @@ body {
 }
 
 /* О нас */
+
+/* Команда */
 
 .team .title {
   font-style: normal;

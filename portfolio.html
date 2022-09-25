@@ -14,17 +14,27 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- Шапка сайта -->
     <header>
-      <nav>
-        <a href="./portfolio.html">WebStudio</a>
-        <ul class="nav-link">
-          <li><a href="" class="nav-link-item">Студія</a></li>
-          <li><a href="" class="nav-link-item">Портфоліо</a></li>
-          <li><a href="" class="nav-link-item">Контакти</a></li>
+      <nav class="site-nav">
+        <!-- Логотип -->
+        <a href="/" class="site-nav-logo">Web<span class="site-nav-logo-studio">Studio</span></a>
+
+        <!-- Навигация сайта-->
+        <ul class="site-nav-list list">
+          <li>
+            <a href="/" class="link">Студія</a>
+          </li>
+          <li><a href="/" class="link">Портфоліо</a></li>
+          <li><a href="/" class="link">Контакти</a></li>
         </ul>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+380961111111</a></li>
+
+        <!-- Контакты -->
+        <ul class="contact-list list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+          </li>
+          <li><a href="tel:+380961111111" class="link">+380961111111</a></li>
         </ul>
       </nav>
     </header>
@@ -43,56 +53,80 @@
         <ul>
           <li>
             <a href="/" target="_blank" rel="noopener">
-              <img src="./images/site.jpg" width="370" alt="" />
+              <img src="./images/portfolio-page/site.jpg" width="370" alt="" />
               <h2>Проєкт Prime</h2>
               <p>Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/design-neworlean.jpg" width="370" alt="Баскетболіст з м'ячем" />
+              <img
+                src="./images/portfolio-page/design-neworlean.jpg"
+                width="370"
+                alt="Баскетболіст з м'ячем"
+              />
               <h2>Постер New Orlean vs Golden Star</h2>
               <p>Дизайн</p>
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/apps-seafood.jpg" width="370" alt="Рибний ресторан" />
+              <img
+                src="./images/portfolio-page/apps-seafood.jpg"
+                width="370"
+                alt="Рибний ресторан"
+              />
               <h2>Ресторан Seafood</h2>
               <p>Додаток</p>
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/marketing-prime.jpg" width="370" alt="музичні навушники" />
+              <img
+                src="./images/portfolio-page/marketing-prime.jpg"
+                width="370"
+                alt="музичні навушники"
+              />
               <h2>Проєкт Prime</h2>
               <p>Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/apps-boxes.jpg" width="370" alt="Картонна коробка" />
+              <img
+                src="./images/portfolio-page/apps-boxes.jpg"
+                width="370"
+                alt="Картонна коробка"
+              />
               <h2>Проєкт Boxes</h2>
               <p>Додаток</p>
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/site-inspiration.jpg" width="370" alt="зображення на моніторі" />
+              <img
+                src="./images/portfolio-page/site-inspiration.jpg"
+                width="370"
+                alt="зображення на моніторі"
+              />
               <h2>Inspiration has no Borders</h2>
               <p>Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/design-limited.jpg" width="370" alt="глянцевий журнал" />
+              <img src="./images/portfolio-page/design-limited.jpg" width="370" alt="глянцевий журнал" />
               <h2>Видання Limited Edition</h2>
               <p>Дизайн</p>
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./images/marketing-lab.jpg" width="370" alt="паперова бирка" />
+              <img
+                src="./images/portfolio-page/marketing-lab.jpg"
+                width="370"
+                alt="паперова бирка"
+              />
               <h2>Проєкт LAB</h2>
               <p>Маркетинг</p>
             </a>
@@ -100,7 +134,7 @@
           <li>
             <a href="/">
               <img
-                src="./images/apps-growing.jpg"
+                src="./images/portfolio-page/apps-growing.jpg"
                 width="370"
                 alt="людина друкує текст на клавіатурі"
               />
@@ -111,23 +145,26 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="./portfolio.html">WebStudio</a>
+
+    <footer class="footer">
+      <a href="/" class="footer-logo">Web<span class="footer-logo-studio">Studio</span></a>
+
       <address>
-        <ul>
+        <ul class="footer-nav-list list">
           <li>
             <a
+              class="link-address"
               href="https://goo.gl/maps/Brkv2MQzdbHGvLkJ7"
               target="_blank"
-              rel="noopener noreferer nofollow"
+              rel="noopener noreferrer nofollow"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a href="tel:+380961111111">+380961111111</a>
+            <a class="link" href="tel:+380961111111">+380961111111</a>
           </li>
         </ul>
       </address>
