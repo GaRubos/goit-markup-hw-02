@@ -141,6 +141,18 @@ body {
 .footer-logo-studio {
   color: #ffffff;
 }
+
+
+.footer .link {
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
 .footer .link-address {
   font-style: normal;
   font-weight: 400;
@@ -151,15 +163,9 @@ body {
   text-decoration: none;
 }
 
-.footer .link {
-  font-style: normal;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
+
+
+
 
 .footer-nav-list .link:hover,
 .footer-nav-list .link:focus {
